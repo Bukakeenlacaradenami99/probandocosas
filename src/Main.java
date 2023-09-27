@@ -6,7 +6,7 @@ public class Main {
 
     int ruedas=5;
 
-    System.out.println("la polla de rod mide " + ruedas + " cm");
+    System.out.println("la polla de rod mide " + ruedas + " centimetros");
 
 
 
