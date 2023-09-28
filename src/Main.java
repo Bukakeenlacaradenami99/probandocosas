@@ -1,12 +1,30 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
 
-    int ruedas=5;
+        int billetes_de_100;
+        int billetes_de_20;
+        int billetes_de_5;
+        int monedas_euro;
+        int euros;
+        System.out.println("Introduce el número de billetes de 100: ");
+        Scanner sc=new Scanner(System.in);
+        billetes_de_100=sc.nextInt();
+        billetes_de_100=billetes_de_100*100;
+        System.out.println("Introduce un número de billetes de 20: ");
+        billetes_de_20=sc.nextInt();
+        billetes_de_20=billetes_de_20*20;
+        System.out.println(" Introduce un número de billetes de 5: ");
+        billetes_de_5=sc.nextInt();
+        billetes_de_5=billetes_de_5*5;
+        System.out.println(" Introduce un número de monedas de 1 euro: ");
+        monedas_euro=sc.nextInt();
+        euros=billetes_de_100+billetes_de_20+billetes_de_5+monedas_euro;
+        System.out.println("La cantidad introducida equivale a: " + euros + " euros");
 
-    System.out.println("la polla de rod mide " + ruedas + " centimetrouus");
+
+
 
 
 
